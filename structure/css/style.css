@@ -1,0 +1,33 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  color: #5a5a5a;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #175488;
+	border-color: #203549;
+}
+
+body #main_content {
+	margin-top: 10px;
+}
+
+
+#ProductPrimaryActions {
+	margin-top: 20px;
+}
+
+#main_content .row {
+	margin-bottom: 20px;
+}
+
+#DownloadFilesButton .dropdown-menu {
+	left: -78px;
+}
+
+#Structure3DImages img {
+ 	/* Trying to Crop */
+	overflow: hidden;
+}

@@ -1,0 +1,149 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  color: #5a5a5a;
+  background: url(/pdb101/images/background.png);
+  background-attachment: fixed;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #175488;
+	border-color: #203549;
+}
+
+body #main_content {
+	padding-top: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 6px 0 10px -4px #777 , -6px 0 10px -4px #777; 
+	padding-bottom: 40px;
+}
+
+
+#ProductPrimaryActions {
+	margin-top: 20px;
+}
+
+#main_content .row {
+	margin-bottom: 20px;
+}
+
+#DownloadFilesButton .dropdown-menu {
+	left: -78px;
+}
+
+#Structure3DImages img {
+ 	/* Trying to Crop */
+	overflow: hidden;
+}
+
+.challenge-title2015 {
+	background-image: url(http://www.rcsb.org/pdb/education_discussion/educational_resources/videochallenge/header-title15.png);
+	padding: 60px 20px 40px 20px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #E5DEDE;
+	color: #666;
+	border: 1px solid #666;
+}
+
+.challenge-title2014 {
+	background-image: url(http://www.rcsb.org/pdb/education_discussion/educational_resources/videochallenge/header-title.png);
+	padding: 50px 20px 20px 20px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #666;
+}
+
+.img-left-side {
+	margin-right: 10px;
+	width: 200px;
+}
+
+.img-right-side {
+	margin-left: 10px;
+	width: 200px;
+}
+
+.tab-pane {
+	padding-bottom: 10px;
+}
+
+.col-sm-12 {
+	margin: 10px 0;
+}
+
+.middle-icon {
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#middlesection, 
+#bottomsection {
+	text-align: center;
+}
+
+#middlesection h3 {
+	font-size: 18px;
+	color: #C88204;
+	
+}
+
+.carousel-indicators {
+	bottom: -5px;
+}
+
+.carousel-indicators li {
+	background-color: #fff;
+	border: 1px solid #666;
+}
+
+.carousel-indicators .active {
+	background-color: #E7AB3F;
+}
+
+.carousel-control .glyphicon-chevron-right {
+	right: 20%;
+}
+
+.carousel-control .glyphicon-chevron-left {
+	left: 20%;
+}
+
+#tagline {
+	display: block;
+	background-color: #C88204;
+	padding: 5px 5px 5px 15px;
+	width: 450px;
+	position: absolute;
+	bottom: -15px;
+	left: -15px;
+	-moz-box-shadow: 2px 2px 5px #777;
+	-webkit-box-shadow: 2px 2px 5px #777;
+	box-shadow: 2px 2px 5px #777;
+}
+
+#tagline h1 {
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+	
+}
+
+#carousel-example-generic {
+	position: relative;
+}
+
+#whatsnew {
+	margin-bottom: 15px;
+}
+
+#whatsnew h2 {
+	color: #C88204;
+}
+

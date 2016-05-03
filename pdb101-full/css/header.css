@@ -1,0 +1,13 @@
+/**********************************/
+/*****  HEADER - Currently Empty ****/
+/**********************************/
+
+#header {
+  margin-top: 30px;
+  border-bottom: 8px solid #C88204;
+}
+
+#header .container .row {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,388 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* BLUR OFF */
+.htmlblur {
+/*	filter: blur(6px);
+	-webkit-filter: blur(6px);
+	-moz-filter: blur(6px);
+	-o-filter: blur(6px);
+	-ms-filter: blur(6px);
+	filter: url(blur.svg#blur);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='6');*/
+}
+
+.blurlow {
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: url(blur.svg#blur);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='2');
+}
+
+body {
+  color: #5a5a5a;
+  background: url(/pdb101/images/gplaypattern-triangle.png);
+  background-repeat: repeat;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #175488;
+	border-color: #203549;
+}
+
+body #main_content {
+	padding-top: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 6px 0 10px -4px #777 , -6px 0 10px -4px #777; 
+	padding-bottom: 10px;
+}
+
+
+#ProductPrimaryActions {
+	margin-top: 20px;
+}
+
+#main_content .row {
+	margin-bottom: 20px;
+}
+
+#main_content .breadcrumbrow {
+	margin-bottom: 0;
+}
+
+#DownloadFilesButton .dropdown-menu {
+	left: -78px;
+}
+
+#Structure3DImages img {
+ 	/* Trying to Crop */
+	overflow: hidden;
+}
+
+.img-left-side {
+	margin-right: 10px;
+	width: 200px;
+}
+
+.img-right-side {
+	margin-left: 15px;
+	margin-bottom: 10px;
+	width: 200px;
+	border: 1px solid #ddd;
+}
+
+.wide-image {
+	width: 150px;	
+}
+
+.tab-pane {
+	padding-bottom: 10px;
+}
+
+.col-sm-12 {
+	margin: 10px 0;
+}
+
+.middle-icon {
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#middlesection, 
+#bottomsection {
+	text-align: center;
+}
+
+#middlesection h3 {
+	font-size: 18px;
+	color: #C88204;
+	
+}
+
+.carousel-indicators {
+	bottom: -5px;
+}
+
+.carousel-indicators li {
+	background-color: #fff;
+	border: 1px solid #666;
+}
+
+.carousel-indicators .active {
+	background-color: #E7AB3F;
+}
+
+.carousel-control .glyphicon-chevron-right {
+	right: 20%;
+}
+
+.carousel-control .glyphicon-chevron-left {
+	left: 20%;
+}
+
+#tagline {
+	display: block;
+	background-color: #C88204;
+	padding: 5px 5px 5px 15px;
+	width: 450px;
+	position: absolute;
+	bottom: -15px;
+	left: -15px;
+	-moz-box-shadow: 2px 2px 5px #777;
+	-webkit-box-shadow: 2px 2px 5px #777;
+	box-shadow: 2px 2px 5px #777;
+}
+
+#tagline h1 {
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+	
+}
+
+#carousel-example-generic {
+	position: relative;
+}
+
+#whatsnew {
+	margin-bottom: 15px;
+}
+
+#whatsnew h2 {
+	color: #C88204;
+}
+
+
+/* SHOULD NOT BE PLACED HERE */
+/* RUTGERS DESIGN */
+
+#design2 .navbar {
+	padding: 0;
+}
+
+#design2 .btn-primary {
+	background-color: #54595F;
+	border-color: #666666;
+}
+
+#design2 .navbar-inverse {
+	background-color: #54595F;
+	border-color: #080808;
+}
+
+#design2 .navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+#design2 .navbar-inverse .navbar-nav>.open>a, 
+#design2 .navbar-inverse .navbar-nav>.open>a:hover, 
+#design2 .navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #fff;
+	color: #333;
+}
+
+#design2 .navbar-nav>li>.dropdown-menu {
+	border-top: none;
+	left: -1px;
+}
+
+#design2 .navbar-brand {
+	color: #fff;
+	border-color: #fff;
+	height: 42px;
+	padding: 9px 9px;
+	margin-top: 3px;
+}
+
+#design2 #header {
+	margin-top: 55px;
+	background: #FFF;
+	border-color: #54595F;
+	background: #f2f3f4;
+}
+
+#design2 #header .container {
+	padding: 0;
+	position: relative;
+}
+
+#design2 #header .container .row {
+	padding-bottom: 0;
+}
+
+#design2 #logo_container #rcsblogo {
+	float: left;
+	margin-right: 10px;
+}
+
+#design2 #logo_container #rcsblogo p {
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+#design2 #logo_container p {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+
+#design2 #footer_grant {
+	background: #54595F;
+}
+
+#design2 #footer_grant a {
+	color: #C1DDF5;
+}
+
+#design2 #headerQueryForm {
+	margin-top: 10px;
+}
+
+#design2 #search_container small {
+	margin-left: 10px;
+}
+
+#design2 #autosearch_SearchBar {
+	padding: 20px 15px;
+	width: 80%;
+}
+
+#design2 #searchbutton {
+	padding: 10px 15px;
+}
+
+#design2 #socialmedia_section {
+	background: #54595F;
+	display: block;
+	color: #FFFFFF;
+	padding: 3px 6px;
+	width: 135px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	position: absolute;
+	bottom: -14px;
+	right: 8px;
+}
+
+#design2 #socialmedia_section li {
+	padding: 0;
+}
+
+
+#design2 #socialmedia_section a {
+	color: #FFFFFF;
+}
+
+#design2 .panel-default>.panel-heading {
+	color: #fff;
+	background-color: #54595F;
+	border-color: #080808;
+}
+
+#design2 .panel-secondary {
+	border-color: #ddd;
+}
+
+#design2 .panel-secondary>.panel-heading {
+	color: #5a5a5a;
+	background-color: #f5f5f5;
+	border-color: #ddd;
+}
+
+.motmcontrols {
+	float: left;
+	margin-right: 13px;
+	font-size: 80%;
+}
+
+.motmcontrols .radio input {
+	margin-top: 0;
+}
+
+
+#design2 #videochallenge_thumbnails li {
+	display: inline;
+}
+
+#design2 #videochallenge_thumbnails li img {
+	width: 25%;
+	border: 1px solid #666;
+}
+
+.content-list li {
+	display: block;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.content-list img {
+	width: 75px;
+	float: left;
+	margin-right: 15px;
+	border: 1px solid #ddd;
+	margin-bottom: 25px;
+}
+
+.content-list h5 {
+	margin-top: 10px;
+}
+
+#BrowserStructure .panel-collapse {
+	margin-bottom: 30px;
+	clear: both;
+}
+
+#BrowserStructure .panel-body {
+	height: 475px;
+}
+
+#NewsEvent .panel-body {
+	height: 380px;
+}
+
+#bottomrow .panel-body {
+	min-height: 230px;
+}
+
+#BrowserStructure .panel-body,
+#NewsEvent .panel-body {
+	overflow-y: scroll;
+}
+
+.StructuralView img {
+	width: 120px;
+	margin-left: 30px;
+	border: 1px solid #ddd;
+}
+
+.StructuralView .panel-body {
+	height: 280px;
+}
+
+.StructuralView h4 {
+	text-transform: uppercase;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	color: #fff;
+	cursor: default;
+	background-color: #54595F;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+
+#CurrentMotm {
+	display: block;
+	float: left;
+	width: 52%;
+}
+
+#CurrentMotmJmol {
+	display: block;
+	float: right;
+	width: 45%;
+}

@@ -1,0 +1,10 @@
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover {
+	color: #C88204;
+	border: 2px solid #C88204;
+	margin-right: 5px;
+}
+
+.navbar {
+	padding: 5px 0;
+}

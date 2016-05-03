@@ -1,0 +1,80 @@
+/* Image Gallery styles
+-------------------------------------------------- */
+.main-image {
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+.thumbnails {
+	padding-left: 1px;
+}
+
+.thumbnails li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.thumbnails a {
+	color: #fff;
+}
+
+.thumbnails img {
+	width: 40px;
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a:focus {
+	color: #fff;
+	cursor: default;
+	background-color: #5E6973;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+
+#structuretabs >li.active>a, 
+#structuretabs >li.active>a:hover, 
+#structuretabs >li.active>a:focus {
+	background-color: #325880;
+}
+
+#structuretabs >li>a {
+	background-color: #EFEDED;
+}
+
+h3 {
+	border-left: 20px solid #666;
+	padding-left: 10px;
+}
+
+.secondaryheader {
+	border-left: 0;
+	padding-left: 0;
+}
+
+#entitynext {
+	margin-top: 10px;
+	background-color: #416D93;
+}
+
+#alternative2 .nav-tabs>li.active>a, 
+#alternative2 .nav-tabs>li.active>a:hover, 
+#alternative2 .nav-tabs>li.active>a:focus {
+	color: #333;
+	background-color: #E4E4E4;
+	border-bottom-color: #ddd;;
+}
+
+#alternative2 #structuretabs >li.active>a, 
+#alternative2 #structuretabs >li.active>a:hover, 
+#alternative2 #structuretabs >li.active>a:focus {
+	background-color: #325880;
+	color: #fff;
+}
+
+#alternative2 .panel-default>.panel-heading {
+	color: #fff;
+	background-color: #5E6973;
+	border-color: #ddd;
+}
+
